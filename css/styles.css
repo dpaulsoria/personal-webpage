@@ -42,7 +42,7 @@ header {
     padding: 25px;
     border-radius: 35px;
     font-family: 'Raleway', sans-serif;
-    background: linear-gradient(#eddd85, #a766e3, #74d1fc);
+    background: linear-gradient(#eddd85, #a766e3, #9fdefc);
     margin: 30px;
 }
 .main_personaldata_list {
@@ -56,6 +56,21 @@ header {
 }
 .main_personaldata_Instagram a{
     text-decoration: none;
+}
+.main_personaldata_Linkedin a img{
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+}
+.main_personaldata_Github a img{
+    margin-top: 10px;
+    width: 100px;
+    height: 25px;
+}
+.main_personaldata_Instagram a img{
+    margin-top: 10px;
+    width: 50px;
+    height: 50px;
 }
 .main_education {
     background-color: var(--color-title);
@@ -73,16 +88,23 @@ header {
     color: #af79e0;
 }
 .main_education_university {
-    color: #74d1fc;
+    color: #9fdefc;
 }
-.main_languages_table {
+.main_languages {
     width: 350px;
+    height: 250px;
     background-color: #191919;
     border-radius: 35px;
     font-size: 2rem;
     padding: 25px;
     margin: 30px;
     text-align: center;
+}
+.main_languages_title {
+    font-size: 3.5rem;
+}
+.main_languages_table {
+    padding: 20px;
 }
 .main_secondsection {
     display: flex;
@@ -96,7 +118,7 @@ header {
     text-align: justify;
 }
 .main_experience_telconet_title {
-    color: #74d1fc;
+    color: #9fdefc;
 }
 .main_experience_panatv_title {
     color: #bb92e0;
@@ -108,6 +130,9 @@ header {
     text-align: center;
     font-size: 3.5rem;
 }
+.main_thirdsection {
+    display: flex;
+}
 .main_prices {
     background-color: #191919;
     border-radius: 35px;
@@ -115,16 +140,26 @@ header {
     padding: 25px;
     margin: 30px;
     text-align: justify;
+    width: 500px;
 }
 .main_prices_title {
     text-align: center;
     font-size: 3.5rem;
+    color: #bb92e0;
 }
 .main_curses_table {
     text-align: center;
 }
 .main_curses_title {
     text-align: center;
+    font-size: 3.5rem;
+    color: #f5e89f;
+}
+.main_curses_table_hours {
+    color: #bb92e0;
+}
+.main_curses_table_date {
+    color: #9fdefc;
 }
 .main_curses {
     background-color: #191919;
@@ -133,4 +168,40 @@ header {
     padding: 25px;
     margin: 30px;
     text-align: justify;
+}
+.footer_references {
+    background-color: #191919;
+    border-radius: 35px;
+    font-size: 2rem;
+    padding: 25px;
+    margin: 30px;
+    text-align: justify;
+}
+.main_languages_table_spanish th {
+    color: #9fdefc;
+}
+.main_languages_table_english th {
+    color: #bb92e0;
+}
+.main_languages_table_french th {
+    color: #f5e89f;
+}
+.main_prices_list {
+    padding: 25px;
+}
+.main_prices_list li {
+    padding: 10px;
+}
+.footer_references_title {
+    background: linear-gradient(to right, #eddd85, #a766e3, #9fdefc);
+    font-size: 3.5rem;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+.footer_references_list {
+    list-style: none;
+}
+.footer_references_list li{
+    padding: 10px;
+    padding-left: 20px;
 }
