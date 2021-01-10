@@ -54,7 +54,7 @@ header {
 .main_personaldata_Github a{
     text-decoration: none;
 }
-.main_personaldata_Linkedin a{
+.main_personaldata_Instagram a{
     text-decoration: none;
 }
 .main_education {
@@ -103,4 +103,34 @@ header {
 }
 .main_experience_lya_title {
     color: #f5e89f;
+}
+.main_experience_title {
+    text-align: center;
+    font-size: 3.5rem;
+}
+.main_prices {
+    background-color: #191919;
+    border-radius: 35px;
+    font-size: 2rem;
+    padding: 25px;
+    margin: 30px;
+    text-align: justify;
+}
+.main_prices_title {
+    text-align: center;
+    font-size: 3.5rem;
+}
+.main_curses_table {
+    text-align: center;
+}
+.main_curses_title {
+    text-align: center;
+}
+.main_curses {
+    background-color: #191919;
+    border-radius: 35px;
+    font-size: 2rem;
+    padding: 25px;
+    margin: 30px;
+    text-align: justify;
 }
